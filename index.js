@@ -1,8 +1,11 @@
 const { menu, ingresaPalabra, añadirOtraPalabra, continuar } = require('./menu')
 const { Diccionario } = require('./class')
 
+
+//Funcion principal
 const main = async() => {
 
+    //Iniciamos nuestro objeto diccionario
     const dic = new Diccionario
 
     while (true) {
